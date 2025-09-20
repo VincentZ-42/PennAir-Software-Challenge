@@ -12,6 +12,7 @@ Develop an algorithm to detect solid shapes on a grassy background, trace their 
 2. Shape Detection on Video ✅
    - Approach is to apply the algorithm developed from Task 1 to each frame of the video, because each frame of the video is essentially a snapshot of an image.
    - Compartmentalizing the code in Task 1 into a function and call it for every frame in the video by running it through an infinite loop that reads the video until it ends or until user breaks out of the loop.
+   - The algorithm somewhat works, with issues with maintaining the correct number of shapes counted and calculating the center of the shapes when the shapes overlap. I improved on the previous algorithm by adding a shape count and displaying the coordinates of the centerpoint of each shape.
 
 ## Dependencies
 
