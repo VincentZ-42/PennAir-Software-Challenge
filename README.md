@@ -4,7 +4,7 @@ Develop an algorithm to detect solid shapes on a grassy background, trace their 
 
 ## <u>Tasks Completed</u>
 
-### Task 1: Shape Detection on Static Image ✅
+### Part 1: Shape Detection on Static Image ✅
 
 - Approach was to use both a colored and texture approach to distinguish between the grass and the solid shapes.
   - The colored approach involved comparing all the shapes against green background and distinguishing shapes. However, this excluded the green colored solid shapes.
@@ -13,7 +13,7 @@ Develop an algorithm to detect solid shapes on a grassy background, trace their 
 
 ![Detected shapes](Detected_Static_Shapes.png)
 
-### Task 2: Shape Detection on Video ✅
+### Part 2: Shape Detection on Video ✅
 
 - Approach is to apply the algorithm developed from Task 1 to each frame of the video, because each frame of the video is essentially a snapshot of an image.
 - Compartmentalizing the code in Task 1 into a function and call it for every frame in the video by running it through an infinite loop that reads the video until it ends or until user breaks out of the loop.
